@@ -1,0 +1,13 @@
+*.txt
+*.tsv
+*.err
+*.log
+*.out
+*.tmp
+*.o
+*.list
+file.h
+calref
+archive
+data
+refdata
