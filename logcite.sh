@@ -1,5 +1,7 @@
 #!/bin/bash
 #PBS -N logcite
+#PBS -e logcite.err
+#PBS -o logcite.out
 #PBS -l walltime=8:00:00
 
 echo Working directory is $PBS_O_WORKDIR
